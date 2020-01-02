@@ -1,6 +1,6 @@
-# Ain Od Melvado
+# Nativescript vuejs starter
 
-> Prayers & Alarms
+> Implemented side drawer
 
 ## Usage
 
