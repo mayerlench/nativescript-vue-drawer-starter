@@ -40,13 +40,13 @@
 </template>
 
 <script lang="ts">
-    import Home from "./Home";
-    import Browse from "./Browse";
-    import Featured from "./Featured";
-    import Search from "./Search";
-    import Settings from "./Settings";
-    import * as utils from "@/shared/utils";
-    import SelectedPageService from "@/shared/selected-page-service";    
+    import Home from "./Home.vue";
+    import Browse from "./Browse.vue";
+    import Featured from "./Featured.vue";
+    import Search from "./Search.vue";
+    import Settings from "./Settings.vue";
+    import * as utils from "../shared/utils";
+    import SelectedPageService from "../shared/selected-page-service";   
     
     export default {
         mounted() {
