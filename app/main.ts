@@ -1,13 +1,13 @@
 import Vue from "nativescript-vue";
-import App from "./components/App";
-import Home from "./components/Home";
-import DrawerContent from "./components/DrawerContent";
+import App from "./components/App.vue";
+import Home from "./components/Home.vue";
+import DrawerContent from "./components/DrawerContent.vue";
 import RadSideDrawer from "nativescript-ui-sidedrawer/vue";
 import store from './store'
-import VueDevtools from 'nativescript-vue-devtools'
+// import VueDevtools from 'nativescript-vue-devtools'
 
-if (TNS_ENV !== 'production')
-  Vue.use(VueDevtools)
+// if (TNS_ENV !== 'production')
+//   Vue.use(VueDevtools)
 
 Vue.use(RadSideDrawer);
 

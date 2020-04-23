@@ -9,7 +9,7 @@
     "noEmitHelpers": true,
     "importHelpers": true,                 /* Import emit helpers from 'tslib'. */
     "moduleResolution": "node",            /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */
-    "baseUrl": "app",                       /* Base directory to resolve non-absolute module names. */
+    "baseUrl": ".",                       /* Base directory to resolve non-absolute module names. */
     "paths": {
       "@/*": [
         "app/*"
